@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\src\\main\\cpp\\Android.mk",
+    "C:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\src\\main\\cpp\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\gilhotra\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\src\\main\\cpp\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-22 NDK_OUT\u003dC:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\build\\intermediates\\ndkBuild\\debug\\lib APP_CPPFLAGS+\u003d\"-std\u003dc++11\" clean"
+  ],
+  "libraries": {
+    "hello_skia_ndk-debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\gilhotra\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\src\\main\\cpp\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-22 NDK_OUT\u003dC:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\build\\intermediates\\ndkBuild\\debug\\lib APP_CPPFLAGS+\u003d\"-std\u003dc++11\" C:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libhello_skia_ndk.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "hello_skia_ndk",
+      "files": [
+        {
+          "src": "C:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/gilhotra/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-target\" \"armv7-none-linux-androideabi22\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-IC:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/src/main/cpp/skia/include/config\" \"-IC:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/src/main/cpp/skia/include/core\" \"-IC:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/src/main/cpp/skia/include/gpu\" \"-IC:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/src/main/cpp/skia/include/image\" \"-IC:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/src/main/cpp/skia/include/utils\" \"-IC:/Users/gilhotra/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include\" \"-IC:/Users/gilhotra/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/llvm-libc++abi/include\" \"-IC:/Users/gilhotra/AndroidStudioProjects/latestSkiaExampleForDrawing/app/src/main/cpp\" \"-std\u003dc++11\" \"-std\u003dc++11\" \"-DANDROID\" \"-D__ANDROID_API__\u003d22\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Users/gilhotra/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/gilhotra/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "C:\\Users\\gilhotra\\AndroidStudioProjects\\latestSkiaExampleForDrawing\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libhello_skia_ndk.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "C:\\Users\\gilhotra\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

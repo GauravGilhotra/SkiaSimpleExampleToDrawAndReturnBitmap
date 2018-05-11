@@ -66,6 +66,8 @@ JNIEXPORT void JNICALL Java_com_example_gilhotra_latestskiaexamplefordrawing_Mai
     pr.setStrokeCap(SkPaint::Cap::kRound_Cap);
     pr.setStrokeJoin(SkPaint::Join::kRound_Join);
     pr.setStrokeWidth(10);
+    
+    // increased path length 
     for(int z = 0; z < 5000; z++) {
         path.moveTo(100, 100);
         path.lineTo(400, 100);

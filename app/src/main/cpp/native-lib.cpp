@@ -28,6 +28,7 @@
 extern "C"
 JNIEXPORT void JNICALL Java_com_example_gilhotra_latestskiaexamplefordrawing_MainActivity_drawIntoBitmap(JNIEnv* env, jobject thiz, jobject dstBitmap, jlong elapsedTime)
 {
+    unsigned int msaaSampleCount;
     AndroidBitmapInfo dstInfo;
     GrContext* grContext;
     void* dstPixels;
@@ -40,11 +41,11 @@ JNIEXPORT void JNICALL Java_com_example_gilhotra_latestskiaexamplefordrawing_Mai
     sk_sp<SkSurface> surface(SkSurface::MakeRasterDirect(info, dstPixels, dstInfo.stride));
     SkCanvas* canvas = surface->getCanvas();
 
-
+    msaaSampleCount = 8;
 
     const GrGLInterface* fInterface = GrGLCreateNativeInterface();
     grContext = GrContext::Create(kOpenGL_GrBackend, (GrBackendContext) fInterface);
-    sk_sp<SkSurface> newSurface(SkSurface::MakeRenderTarget(grContext, SkBudgeted::kNo, info, 8 /*MSAA*/, NULL));
+    sk_sp<SkSurface> newSurface(SkSurface::MakeRenderTarget(grContext, SkBudgeted::kNo, info, msaaSampleCount, NULL));
     SkCanvas* newCanvas = newSurface->getCanvas();
 
 
